@@ -1,0 +1,13 @@
+.loadingButton {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+@media all and (min-width: 1024px) {
+    .cardsList {
+        padding: 40px 0;
+    }
+}
+
+

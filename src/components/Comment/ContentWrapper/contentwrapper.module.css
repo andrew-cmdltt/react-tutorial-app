@@ -1,0 +1,33 @@
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.buttonSection {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.buttonDescription {
+    margin-right: 27px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--grey99);
+}
+
+.button svg {
+    margin-right: 6px;
+}
+
+.button,
+.button:hover,
+.button:active {
+    outline: none;
+    border: none;
+}

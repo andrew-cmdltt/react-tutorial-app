@@ -1,0 +1,40 @@
+.form {
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    resize: none;
+    min-height: 70px;
+    outline: none;
+    border: 1px solid var(--greyD9);
+    background: var(--white);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 7px;
+    color: var(--grey99);
+    padding: 16px;
+    margin-bottom: 10px;
+}
+
+textarea::placeholder {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--grey99);
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+    padding: 10px;
+    min-height: 25px;
+    background: var(--orange);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 4px;
+    color: var(--white);
+}
